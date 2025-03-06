@@ -20,7 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     defaultDate: new Date(),      // Default date
     display: {
-      theme: "light"              // Can be "auto", "light", or "dark"
+      theme: "dark",             // Can be "auto", "light", or "dark"
+      components: {
+        clock: true               // Show/Hide clock
+      }
     }
   });
 
